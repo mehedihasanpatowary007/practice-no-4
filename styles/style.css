@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* ---------------
+   main menu star
+----------------- */
+.top-banner{
+    display: flex;
+    padding: 100px;
+}
+.half-width{
+    width: 40%;
+    margin:0px 20px;
+    padding: 10px;
+
+}
+.half-width img{
+    width: 100%;
+    border:5px double ;
+    border-radius: 50%;
+    margin-left: 15%;
+}
+.section-title{
+    font-size: 2em;
+}
+.link-button{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: crimson;
+    padding: 5px 20px;
+    border-radius: 40px ;
+}
+.link-button .fa-solid{
+    padding-left:20px;
+}
+/*--------------------
+    main menu end
+---------------------- */
+/* ---------------
+    brand logos
+------------------ */
+.brand-logos{
+    padding: 50px 120px;
+}
+hr{
+    border: 1px solid gray;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logos.logo{
+    width: 100%;
+}
+/*------------------
+   our collection
+ ----------------- */
+.collection{
+    padding: 50px 200px ;
+}
+.collection-title{
+    text-align: center;
+    font-size: 2em;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.product{
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 10px 10px 20px;
+    border-radius: 10px;
+}
+.product-banner img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product-title{
+    margin: px;
+}
+.product-price{
+    font-size: 2ex;
+    margin: 0px;
+}
+.fa-star{
+    color: yellow;
+}
+.product-detail p{
+    font-size: 15px;
+    margin: 0px;
+}
+.see-more{
+    position: absolute;
+    left: 75%;
+    margin-top: 25px;
+    color: crimson;
+}
+.see-more .see-more-link{
+    color: crimson;
+    text-decoration: none;
+    font-weight: 700;
+}
+.see-more .see-more-link .fa-arrow-right{
+    padding-left: 20px;
+}
+/*-------------------
+   product-featured 
+ --------------------*/
+ .featured{
+    padding: 50px 150px;
+ }
+ .products-featured{
+    display: flex;
+ }
+ .featured-banner{
+    width: 50%;
+ }
+ .featured-banner img{
+    width: 80%;
+ }
+ .featured-details{
+    width: 50%;
+ }
+ .featured-title{
+    font-size: 1.8em;
+ }
+ .featured-detail{
+    font-size: 18px;
+ }
+ .featured-button{
+    background-color: crimson;
+    padding: 5px 20px;
+ }
+ .featured-button a{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 700;
+ }
+ .featured-button .fa-arrow-right{
+    padding-left: 20px;
+    color: #ffff;
+ }
+ .footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+ }
+ .footer-details{
+    padding: 20px 0px;
+ }
+ .footer-title{
+    font-size: 1.5em;
+ }
+ .social-media{
+    display: flex;
+    justify-content: center;
+ }
+ .media-logo{
+    color: white;
+    margin:20px ;
+ }
+ .media-logo:hover{
+    color: orange;
+ }
+ @media only screen and (max-width:576px){
+    .top-banner{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px 0px;
+    }
+    .logos{
+        flex-direction: column;
+        
+    }
+    .logo{
+        margin-top:50px ;
+    }
+    .collection{
+        padding: 50px 0px;
+    }
+    .products{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+    .featured{
+        padding: 50px 0px;
+    }
+    .products-featured{
+        flex-direction: column;
+        align-items: center;
+    }
+     
+ }
+ @media only screen and (min-width:577px) and (max-width:992px) {
+    .top-banner{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px 0px;
+    }
+    .logos{
+        flex-direction: column;
+        
+    }
+    .logo{
+        margin-top:100px ;
+    }
+    .collection{
+        padding: 50px 0px;
+    }
+    .products{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .featured{
+        padding: 50px 0px;
+    }
+    .products-featured{
+        flex-direction: column;
+        align-items: center;
+    }
+ }
