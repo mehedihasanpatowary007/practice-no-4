@@ -173,12 +173,23 @@ hr{
         align-items: center;
         padding: 50px 0px;
     }
+    .half-width{
+        width: 80%;
+    }
+    .half-width img{
+         margin-left: 0;
+    }
+    .brand-logos{
+        padding: 0;
+    }
     .logos{
         flex-direction: column;
+        align-items: center;
         
     }
     .logo{
         margin-top:50px ;
+        width: 40%;
     }
     .collection{
         padding: 50px 0px;
@@ -202,12 +213,23 @@ hr{
         align-items: center;
         padding: 50px 0px;
     }
+    .half-width{
+        width: 80%;
+    }
+    .half-width img{
+         margin-left: 0;
+    }
+    .brand-logos{
+        padding: 0 20px;
+    }
     .logos{
         flex-direction: column;
+        align-items: center;
         
     }
     .logo{
         margin-top:100px ;
+        width: 40%;
     }
     .collection{
         padding: 50px 0px;
@@ -218,6 +240,7 @@ hr{
     }
     .featured{
         padding: 50px 0px;
+        margin: 0;
     }
     .products-featured{
         flex-direction: column;
